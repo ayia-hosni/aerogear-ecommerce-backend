@@ -1,0 +1,39 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# Test output
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.cobertura.xml
+
+# Logs
+*.log
+logs/
+
+# IDEs and OS
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store
